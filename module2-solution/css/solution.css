@@ -1,0 +1,140 @@
+
+ /*.section-title1{
+	background-color: red;
+}*/
+
+
+
+@media only screen and (min-width: 992px){	
+
+.section-element{
+	background-color: grey;
+	width:30%;
+	float:left;
+	border-style:solid; 
+	margin:10px;
+	padding-left: .3%;
+	font-family:monaco;
+}
+
+.clear-div{
+	float: left;
+}
+
+    /*padding-right: .3%;*/
+
+.section-title{
+	font-size:20px;
+	font-weight: bold;
+	float:right;
+    clear:left;
+	border-bottom-style: solid;
+    border-left-style: solid;
+	padding:0.9%;
+	background-color: pink;
+	/*position:static;*/
+
+}
+
+.menu-title{
+	margin: 0;
+    float: right;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    width: 170px;
+    background-color: pink;
+    text-align: center;
+    border-color: black;
+}
+
+.menu-color1{
+	background-color: red;
+	color: white;
+}
+
+.menu-color2{
+	background-color: yellow;
+}
+}
+
+
+
+@media only screen and (max-width: 700px) {
+	.section-element{
+		background-color: grey;
+		width:90%;
+		float:left;
+		border-style:solid; 
+		margin:10px;
+		padding-left: .3%;
+		font-family:monaco;
+	}
+
+	.clear-div{
+		float: left;
+	}
+
+	.menu-title{
+		margin: 0;
+	    float: right;
+	    border-bottom-style: solid;
+	    border-left-style: solid;
+	    width: 170px;
+	    background-color: pink;
+	    text-align: center;
+	    border-color: black;
+	}
+
+	.menu-color1{
+		background-color: red;
+		color: white;
+	}
+
+	.menu-color2{
+		background-color: yellow;
+	}
+}
+
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+	.section-element{
+		background-color: grey;
+		max-width:45%;
+		float:left;
+		border-style:solid; 
+		margin:10px;
+		padding-left: .3%;
+		font-family:monaco;
+	}
+
+	.clear-div{
+		float: left;
+	}
+
+	.section-element-overflow{
+		min-width: 93%;
+	}
+
+	.menu-title{
+		margin: 0;
+	    float: right;
+	    border-bottom-style: solid;
+	    border-left-style: solid;
+	    width: 170px;
+	    background-color: pink;
+	    text-align: center;
+	    border-color: black;
+	}
+
+	.menu-color1{
+		background-color: red;
+		color: white;
+	}
+
+	.menu-color2{
+		background-color: yellow;
+	}
+}
+
+
+
